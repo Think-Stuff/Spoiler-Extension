@@ -1,3 +1,4 @@
-# Create a Chrome extension to modify a website's HTML or CSS
+Spoiler Extension is a chrome extension that helps movie enthusiasts by detecting and blacking out spoilers of their favourite movies. 
+It gives users a facility to mention the names of the movies, spoilers of which they don't wish to see.
 
-See post: https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/
+We use JS , jQuery , jSon . HTML and CSS to implement the code.
