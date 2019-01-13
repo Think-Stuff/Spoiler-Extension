@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Spoiler Detector",
+    "version": "0.1",
+
+    "background":{
+        "scripts":["content.js"],
+        "persistent":false
+
+    },
+    "permissions": ["tabs", "http://*/*", "https://*/*"],
+    
+    "description": "Removes The Spoiler From Your Life",
+    "icons":{
+        "128":"icon.png"
+    },
+
+    "browser_action":{
+        "default_title": "Spoiler Generator",
+        "default_popup": "popup.html"
+    },
+
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
