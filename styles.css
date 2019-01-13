@@ -1,6 +1,8 @@
 body {
 }
-
+#taa{
+	display: block !important;
+}
 #masthead,
 #primary {
   -webkit-filter: invert(100%);
