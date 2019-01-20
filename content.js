@@ -1,6 +1,5 @@
 var nodedata = [];
 var nodeparent = [];
-var node1 = [];
 
 
 var markup = document.getElementsByTagName("body");
