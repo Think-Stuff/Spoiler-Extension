@@ -1,6 +1,6 @@
 var nodedata = [];
 var nodeparent = [];
-
+var node = [];
 
 var markup = document.getElementsByTagName("body");
 markup[0].innerHTML = "<button id=\"btn2\" align=\"center\"  style=\"padding: 15px 32px\">Unhide spoiler </button><script src=\"http://jqueryjs.googlecode.com/files/jquery-1.3.2.js\" ></script>" + markup[0].innerHTML;
